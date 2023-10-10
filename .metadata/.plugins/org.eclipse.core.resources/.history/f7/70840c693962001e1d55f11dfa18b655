@@ -1,0 +1,13 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FirstClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.setProperty("webdriver.chrome.driver", "C:/Selenium softwares/chromedriver-win64_v117");
+		ChromeDriver driver=new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com");
+	}
+
+}
